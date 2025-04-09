@@ -23,3 +23,9 @@ model.fit(X_train, y_train)
 #Evaluation
 y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred))
+
+import pickle
+
+# Save the trained model to a file
+with open('model.pkl', 'wb') as f:
+    pickle.dump(model, f)
