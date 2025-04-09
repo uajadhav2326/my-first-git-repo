@@ -43,18 +43,3 @@ lung-cancer-risk/
 Kaggle Lung Cancer Dataset
 
 ---
-
-#### 🔹 4. **Save the File**
-Press `Ctrl + S` (or `Cmd + S` on Mac) to save the file.
-
----
-
-#### 🔹 5. **Stage, Commit, and Push**
-Now that you’ve updated `README.md`, let’s push it to GitHub.
-
-Open the **terminal in VS Code** (top menu → `Terminal → New Terminal`), then run:
-
-```bash
-git add README.md
-git commit -m "Add project README with details and structure"
-git push origin main
