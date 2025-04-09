@@ -16,6 +16,7 @@ pip install -r requirements.txt
 Run the Streamlit app:
 
 streamlit run app.py
+
 📊 Features
 Predicts lung cancer risk using simple inputs
 
@@ -43,3 +44,6 @@ lung-cancer-risk/
 Kaggle Lung Cancer Dataset
 
 ---
+git add README.md
+git commit -m "Remove instructional steps from README"
+git push origin main
