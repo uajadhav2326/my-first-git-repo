@@ -10,14 +10,17 @@ This project uses a machine learning model to predict lung cancer risk based on 
 Navigate into the project directory:
 
 cd lung-cancer-risk
+
 Install the dependencies:
 
 pip install -r requirements.txt
+
 Run the Streamlit app:
 
 streamlit run app.py
 
 📊 Features
+
 Predicts lung cancer risk using simple inputs
 
 Interactive web app using Streamlit
@@ -25,9 +28,13 @@ Interactive web app using Streamlit
 Model trained with real data from Kaggle
 
 🧠 Tech Stack
+
 Python
+
 scikit-learn
+
 Streamlit
+
 Pandas
 
 📁 Project Structure
@@ -41,9 +48,7 @@ lung-cancer-risk/
 └── .github/workflows     # CI workflow (optional)
 
 🙌 Acknowledgements
+
 Kaggle Lung Cancer Dataset
 
 ---
-git add README.md
-git commit -m "Remove instructional steps from README"
-git push origin main
